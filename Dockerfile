@@ -1,4 +1,4 @@
-FROM cnosuke/ruby22-base
+FROM cnosuke/ruby23-base
 MAINTAINER cnosuke
 
 RUN apt-get update && apt-get upgrade -y
