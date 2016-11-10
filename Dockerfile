@@ -5,7 +5,7 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y \
     rtmpdump \
     libav-tools \
-    libavcodec-extra-54 \
+    libavcodec-extra \
     swftools
 
 RUN mkdir -p /gems /app /app/tmp
